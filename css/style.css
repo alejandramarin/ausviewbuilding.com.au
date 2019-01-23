@@ -7,3 +7,228 @@ body {
 	background-color: #AFACAC;
 	width: 100%
 }
+
+nav {
+	display: block;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #3A7CB2;
+	font-family: 'Droid Sans', sans-serif;
+	text-decoration: none;
+	width: 100%;
+	padding: 1em;
+}
+h1 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+	margin-top: 1.5em;
+	
+}
+strong {
+	color: #E22C2B;
+	font-weight: bold;
+	
+}
+h2 {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	font-style: normal;
+	color: white;
+	margin-top: 1.5em;
+}
+a {
+	background-color: #3A7CB2;
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	color: white;
+	text-decoration: none;
+	margin: 1em;
+
+}
+a:hover {
+	background-color: #AFACAC;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	margin: 3em;
+}
+#wrapper {
+	position: fixed;
+	width: 100%;
+	background-color: white;
+}
+.sentence {
+	float: right;
+	width: 35%;
+	display: inline-block;
+	font-family: 'Droid Sans', sans-serif;
+	color: black;
+	padding: 1em;
+	text-align: right;
+
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: #AFACAC;
+	width: 100%;
+	}
+
+.logo {
+	display: block;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
+	width: 20%;
+	float: left;
+	
+}
+.menu {
+	text-decoration: none;
+	margin-top: auto;
+	margin-bottom: 0em;
+	text-align: center;
+	padding: 0.5em;
+	width: 100%;
+	float: right;
+	
+}
+
+.img {
+	display: block;
+	width: 80%;
+	text-align: center;
+}
+.hamburger { display: none;
+}
+
+@media (max-width: 500px) {
+	.menu {
+		padding: 0.5em;
+	}
+
+}
+
+@media (max-width: 500px) {
+	.menu {
+		padding: 0.2em;
+	}
+	.logo {
+		margin: 1em;
+		padding: 0.5em:;
+	}
+}
+
+@media (max-width: 500px) {
+	a {
+		font-size: 0.9em;
+		margin: 2.5em;
+	}
+	.menu {
+		float: none;
+		padding: 0.5em;
+		margin: 0em;
+		width: 100%;
+	}
+
+	.logo {
+		float: none;
+		display: block;
+		margin: 1em 1em 1em 12em;
+		padding: 1em;
+		width: 50%;
+	}
+	.me {
+		float: none;
+		display: block;
+		margin: 1em 0em;
+		padding: 1em;
+		width: 100%;
+	}
+	.collage {
+		float: none;
+		display: block;
+		margin: 0em;
+		padding: 0em;
+		width: 100%;
+	}
+
+}
+@media (max-width: 500px) {
+	a {
+		margin: 2em;
+	}
+}
+@media (max-width: 500px) {
+	
+	a {
+		margin: 0.5em;
+		font-size: 0.7em
+	}
+	a:hover {
+		margin: 0.5em:;
+	}
+	.logo {
+		display: block;
+		float: none;
+		margin-left: 2em;
+		width: 70%;
+	}
+
+}
+@media (max-width: 500px) {
+	.logo {
+		float: left;
+		width: 60%;
+		margin: 0em;
+		padding: 1em;
+	}
+	.menu {
+		float: right;
+		display: none;
+		width: 35%;
+		padding: 1em;
+		height: 9em;
+		overflow: hidden;
+	}
+	
+	.hamburger {
+		display: block;
+		float: right;
+		width: 20%;
+		padding: 1em;
+		margin-top: 1.5em;
+		color: #A8518A;
+		background-color: #D2D3D5;
+		cursor: pointer;
+	}
+
+	.cross {
+		display: block;
+		float: right;
+		width: 20%;
+		padding: 1em;
+		margin-top: 1.5em;
+		color: #A8518A;
+		background-color: #D2D3D5;
+		cursor: pointer;
+	}
+}
+
+
+
+
